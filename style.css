@@ -1,0 +1,89 @@
+body{
+    background-image: url("image/bg2.jpg");
+    background-size: cover;
+}
+p{
+    text-indent: 4vw;
+    text-align: justify;
+    margin: 0 5vw;
+    font-style: italic;
+    color: #f916ff;
+    font-size: 3.5vh;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    color: #fc1084;
+    text-shadow: 2px 2px 3px black;
+    font-size: 6vh;
+}
+a:link{
+    color: lime;
+    text-shadow: 2px 1px 3px black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:active{
+    color: hotpink;
+    text-shadow: 2px 1px 3px black;
+    text-decoration: none;
+}
+a:visited{
+    color: #0384c2;
+    text-shadow: 2px 1px 3px black;
+    text-decoration: line-through;
+}
+a:hover{
+    color: red;
+    text-shadow: 2px 1px 3px #ff00ce;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one{
+    height: 5vw;
+    rotate: 140deg;
+    margin: 2vw 4vw;
+}
+.two{
+    height: 5vw;
+    rotate: 40deg;
+    margin: 2vw 4vw;
+}
+.second{
+    display: flex;
+}
+.three{
+    margin: 0 2vw;
+}
+.four{
+    margin: 0 2vw;
+}
+.five{
+    height: 20vh;
+    float: right;
+    margin: 1vw 4vw 0 1vw;
+}
+.six{
+    margin: -1vw 3vw;
+    font-style: italic;
+    font-size: 3.5vh;
+    position: absolute;
+}
+.seven{
+    height: 20vh;
+    float: left;
+    margin: 0 2vh 0 10vh;
+}
+.eight{
+    height: 20vh;
+    float: right;
+    margin: 0 10vh 0 2vh;
+}
